@@ -195,7 +195,7 @@ export default function AboutPage() {
                 </div>
                 <Button
                   component={Link}
-                  href="/prototype-to-production/book"
+                  href="/book"
                   variant="filled"
                   color="brand"
                   size="sm"
@@ -359,9 +359,9 @@ export default function AboutPage() {
         headline="Ready to work together?"
         body="Book a 30-minute strategy call. We'll assess your current situation, discuss where you want to go, and determine whether there's a fit."
         primaryLabel="Book a Strategy Call"
-        primaryHref="/prototype-to-production/book"
+        primaryHref="/book"
         secondaryLabel="View Services"
-        secondaryHref="/prototype-to-production/services"
+        secondaryHref="/services"
       />
     </>
   );

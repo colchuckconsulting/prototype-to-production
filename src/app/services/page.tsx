@@ -437,7 +437,7 @@ export default function ServicesPage() {
               </div>
               <Button
                 component={Link}
-                href="/prototype-to-production/book"
+                href="/book"
                 variant="filled"
                 color="brand"
                 size="sm"
@@ -562,7 +562,7 @@ export default function ServicesPage() {
                 </div>
                 <Button
                   component={Link}
-                  href="/prototype-to-production/book"
+                  href="/book"
                   variant="filled"
                   color="brand"
                   size="sm"
@@ -713,7 +713,7 @@ export default function ServicesPage() {
         headline="Not sure which tier is right for you?"
         body="Book a 30-minute strategy call. I'll assess your current setup and give you a direct recommendation — no sales pitch, no commitment required."
         primaryLabel="Book a Strategy Call"
-        primaryHref="/prototype-to-production/book"
+        primaryHref="/book"
       />
     </>
   );

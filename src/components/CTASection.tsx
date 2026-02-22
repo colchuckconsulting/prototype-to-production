@@ -15,7 +15,7 @@ export function CTASection({
   headline,
   body,
   primaryLabel = "Book a Strategy Call",
-  primaryHref = "/prototype-to-production/book",
+  primaryHref = "/book",
   secondaryLabel,
   secondaryHref,
 }: CTASectionProps) {
