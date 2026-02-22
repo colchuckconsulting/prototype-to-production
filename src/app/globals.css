@@ -1,0 +1,22 @@
+@import "@mantine/core/styles.css";
+
+:root {
+  --spotify-green: #1db954;
+  --spotify-green-light: #1ed760;
+  --hero-dark: #0a1a0a;
+  --hero-dark-mid: #1a2f1a;
+  --section-bg-alt: #f8f9fa;
+  --text-dark: #1a1a1a;
+  --text-muted: #6c757d;
+  --border-light: #e9ecef;
+  --card-border-radius: 8px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  color: var(--text-dark);
+}
