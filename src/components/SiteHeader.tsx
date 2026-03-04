@@ -6,9 +6,9 @@ import { Button } from "@mantine/core";
 import classes from "./SiteHeader.module.css";
 
 const navLinks = [
-  { label: "Services", href: "/services" },
-  { label: "Architecture", href: "/architecture" },
-  { label: "About", href: "/about" },
+  { label: "Services", href: "/prototype-to-production/services" },
+  { label: "Architecture", href: "/prototype-to-production/architecture" },
+  { label: "About", href: "/prototype-to-production/about" },
 ];
 
 export function SiteHeader() {
@@ -17,7 +17,7 @@ export function SiteHeader() {
   return (
     <header className={classes.header} style={{ position: "relative" }}>
       <div className={classes.inner}>
-        <Link href="/" className={classes.logo}>
+        <Link href="/prototype-to-production" className={classes.logo}>
           <span className={classes.logoMain}>Colchuck Consulting</span>
           <span className={classes.logoSub}>Prototype to Production™</span>
         </Link>
@@ -31,7 +31,7 @@ export function SiteHeader() {
           <span className={classes.ctaLink}>
             <Button
               component={Link}
-              href="/book"
+              href="/prototype-to-production/book"
               variant="filled"
               color="brand"
               size="sm"
@@ -117,7 +117,7 @@ export function SiteHeader() {
             </Link>
           ))}
           <Link
-            href="/book"
+            href="/prototype-to-production/book"
             className={classes.mobileLink}
             onClick={() => setMenuOpen(false)}
             style={{ color: "#1db954", fontWeight: 600 }}

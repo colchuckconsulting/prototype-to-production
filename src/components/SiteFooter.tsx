@@ -2,10 +2,10 @@ import Link from "next/link";
 import classes from "./SiteFooter.module.css";
 
 const footerLinks = [
-  { label: "Services", href: "/services" },
-  { label: "Architecture", href: "/architecture" },
-  { label: "About", href: "/about" },
-  { label: "Book a Call", href: "/book" },
+  { label: "Services", href: "/prototype-to-production/services" },
+  { label: "Architecture", href: "/prototype-to-production/architecture" },
+  { label: "About", href: "/prototype-to-production/about" },
+  { label: "Book a Call", href: "/prototype-to-production/book" },
 ];
 
 export function SiteFooter() {

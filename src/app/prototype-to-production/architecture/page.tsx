@@ -369,9 +369,9 @@ export default function ArchitecturePage() {
         headline="Not sure which path is right?"
         body="Book a 30-minute strategy call. I'll assess your current architecture and tell you exactly where you are and what your fastest path forward looks like."
         primaryLabel="Book a Strategy Call"
-        primaryHref="/book"
+        primaryHref="/prototype-to-production/book"
         secondaryLabel="View Packages"
-        secondaryHref="/services"
+        secondaryHref="/prototype-to-production/services"
       />
     </>
   );
